@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+main {
+  flex: 1; /* takes remaining vertical space */
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
